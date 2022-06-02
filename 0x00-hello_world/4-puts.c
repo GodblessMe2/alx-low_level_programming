@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-puts("How to print text using printf, puts and putchar\n");
+puts("Programming is like building a multilingual puzzle\n");
 return (0);
 }
