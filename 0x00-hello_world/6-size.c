@@ -1,20 +1,21 @@
+#include <stdlib.h>
 #include <stdio.h>
+#include <stdint.h>
 /**
  * main - Entry point
  *
+ * The function will output the type size of in 32bits environment
+ * or the type size of in 64bits environment
+ * compile it in 64 bits with no warning
+ * compile it in 32 bits with warning
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int intType;
-float floatType;
-char charType;
-long int longIntType;
-long long int longLongInt;
-printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-printf("Size of a int: %zu byte(s)\n", sizeof(intType));
-printf("Size of a long int: %zu byte(s)\n", sizeof(longIntType));
-printf("Size of a long long int: %zu byte(s)\n", sizeof(longLongInt));
-printf("Size of a float: %zu byte(s)\n\n", sizeof(floatType));
+printf("Size of a char: %lu byte(s)\n", sizeof(char));
+printf("Size of a int: %lu byte(s)\n", sizeof(int));
+printf("Size of a long int: %lu byte(s)\n", sizeof(long));
+printf("Size of a long long int: %lu byte(s)\n", sizeof(long));
+printf("Size of a float: %lu byte(s)\n\n", sizeof(float));
 return (0);
 }
