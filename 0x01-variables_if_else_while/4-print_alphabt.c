@@ -1,18 +1,16 @@
-#include <stdio>
-
-/*
+#include <stdio.h>
+/**
  * main - Prints the alphabet in lowercase.
  *
  * Return - Always 0.
  */
-
 int main(void)
 {
 char qe = 'a';
 
-while(qe <= 'z')
+while (qe <= 'z')
 {
-if(qe == 'e' || qe == 'q')
+if (qe == 'e' || qe == 'q')
 {
 qe++;
 continue;

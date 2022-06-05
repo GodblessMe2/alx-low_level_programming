@@ -1,7 +1,6 @@
-#include <stdio>
-/*
- * Main - Write a program that prints the alphabet in lowercase, 
- * and then in uppercase.
+#include <stdio.h>
+/**
+ * main - That prints the alphabet in lowercase,and then in uppercase.
  *
  * Return: Always 0.
  */
@@ -10,12 +9,12 @@ int main(void)
 
 char lowerAlpha = 'a';
 char upperAlpha = 'A';
-while(lowerAlpha <= 'z')
+while (lowerAlpha <= 'z')
 {
 putchar(lowerAlpha);
 lowerAlpha++;
-}	
-while(upperAlpha <= 'Z')
+}
+while (upperAlpha <= 'Z')
 {
 putchar(upperAlpha);
 upperAlpha++;
