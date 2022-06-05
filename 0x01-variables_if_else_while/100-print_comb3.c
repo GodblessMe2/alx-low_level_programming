@@ -15,7 +15,7 @@ for (number2 = 0; number2 < 10; number2++)
 {
 putchar((number1 % 10) + '0');
 putchar((number2 % 10) + '0');
-if (number1 == 9 && digit2 == 9)
+if (number1 == 9 && number2 == 9)
 continue;
 
 putchar(',');
