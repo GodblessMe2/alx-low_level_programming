@@ -3,7 +3,7 @@
 /**
  * print_alphabeth - prints the alphabet, in lowercase.
  */
-void print_alphabeth(void)
+void print_alphabet(void)
 {
 char alphabeth = 'a';
 
