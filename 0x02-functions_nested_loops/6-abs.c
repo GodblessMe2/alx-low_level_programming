@@ -9,9 +9,9 @@
 
 int _abs(int x)
 {
-int n; 
-if (n >= 0)
-return (n);
+int x; 
+if (x >= 0)
+return (x);
 else
-return (-n);
+return (-x);
 }
