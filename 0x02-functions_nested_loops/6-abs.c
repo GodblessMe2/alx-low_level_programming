@@ -7,7 +7,7 @@
  * Return: the absolute value.
  */
 
-int _abs(int)
+int _abs(int x)
 {
 int n; 
 if (n >= 0)
