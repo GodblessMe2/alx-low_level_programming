@@ -6,9 +6,9 @@
  * Return: 1 if the character is lower or 0.
  */
 
-int islower(int c)
+int _islower(int c)
 {
-if (c <= 'z'; && c >= 'a')
+if (c >= 'a'; && c <= 'z')
 return (1);
 else
 return (0);
