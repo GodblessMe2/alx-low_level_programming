@@ -3,7 +3,7 @@
 /**
  * main - finds and prints the sum of the even-valued terms.
  *
- * return: always 0
+ * Return: always 0
  */
 
 int main(void)
@@ -18,7 +18,7 @@ if (sum > 4000000)
 {
 break;
 }
-if((sum % 2) == 0)
+if ((sum % 2) == 0)
 {
 total += sum;
 }
