@@ -10,11 +10,11 @@ void print_times_table(int n)
 int num, times, result;
 if (n > 15 || n < 0)
 {
-for (num = 0; num <= n, num++)
+for (num = 0; num <= n; num++)
 {
 _putchar('0');
 
-for (times = 1; times = 2; times++)
+for (times = 1; times <= n; times++)
 {
 _putchar(',');
 _putchar(' ');
@@ -32,7 +32,7 @@ _putchar(' ');
 if (result >=100)
 {
 _putchar((result / 100) + '0');
-_putchar(((result / 10)) % 10 + '0'0
+_putchar(((result / 10)) % 10 + '0');
 }
 else if (result <= 99 && result >= 10)
 {
