@@ -8,12 +8,11 @@
 void times_table(void)
 {
 int num = 0, result, times;
-while (num <= 9)
+for (num = 0; num <= 9; num++)
 {
 _putchar('0');
-num++;
 
-for (times = 0; times <= 9; times++)
+for (times = 1; times <= 9; times++)
 {
 _putchar(',');
 _putchar(' ');
