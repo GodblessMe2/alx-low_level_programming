@@ -25,8 +25,8 @@ fib2 = sum;
 
 fib_half1 = fib1 / 10000000000;
 fib_half3 = fib2 / 10000000000;
-fib_half2 = fib1 / 10000000000;
-fib_half4 = fib2 / 10000000000;
+fib_half2 = fib1 % 10000000000;
+fib_half4 = fib2 % 10000000000;
 
 for (count = 93; count < 99; count++)
 {
