@@ -22,7 +22,6 @@ printf("%lu, ", sum);
 fib1 = fib2;
 fib2 = sum;
 }
-
 fib_half1 = fib1 / 10000000000;
 fib_half3 = fib2 / 10000000000;
 fib_half2 = fib1 % 10000000000;
@@ -37,17 +36,14 @@ if (fib_half2 + fib_half4 > 9999999999)
 half1 += 1;
 half2 %= 10000000000;
 }
-
 printf("%lu%lu", half1, half2);
 
 if (count != 98)
-{
 printf(", ");
 fib_half1 = fib_half3;
 fib_half2 = fib_half4;
 fib_half3 = half1;
 fib_half4 = half2;
-}
 }
 printf("\n");
 return (0);
