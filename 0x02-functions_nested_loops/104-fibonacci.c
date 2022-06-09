@@ -50,7 +50,5 @@ fib_half4 = half2;
 }
 }
 printf("\n");
-
 return (0);
-
 }
