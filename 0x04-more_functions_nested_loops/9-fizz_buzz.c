@@ -6,7 +6,7 @@
  * Return: Always 0
  */
 
-int main(void)
+void print_square(int size)
 {
 for (int i = 1; i < 100; i++)
 {
