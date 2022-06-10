@@ -6,9 +6,9 @@
  */
 void print_most_numbers(void)
 {
-	int number = 0;
+	int number = '0';
 
-	while (number <= 9)
+	while (number <= '9')
 	{
 		if (number == 2 || number == 4)
 		{
