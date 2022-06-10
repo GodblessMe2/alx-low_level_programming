@@ -13,7 +13,7 @@ for (more_num = 0; more_num <= 14; more_num++)
 {
 if (more_num > 9)
 _putchar((more_num / 10) + '0');
-_putchar((num % 10) + '0');
+_putchar((more_num % 10) + '0');
 }
 _putchar('\n');
 }
