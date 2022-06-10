@@ -11,6 +11,7 @@ for (numbers = 1; numbers <= 10; numbers++)
 {
 for (more_num = 0; more_num <= 14; more_num++)
 _putchar(more_num);
+_putchar('\n');
 }
 _putchar('\n');
 }
