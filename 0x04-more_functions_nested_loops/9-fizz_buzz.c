@@ -8,17 +8,17 @@
 
 void print_square(int size)
 {
-for (int i = 1; i < 100; i++)
+for (size = 1; size < 100; size++)
 {
-if ((i % 3) == 0 && (i % 5) == 0)
+if ((size % 3) == 0 && (size % 5) == 0)
 printf("FizzBuzz ");
-else if ((i % 3) == 0)
+else if ((size % 3) == 0)
 printf("Fizz ");
-else if ((i % 5) == 0)
+else if ((size % 5) == 0)
 printf("Buzz ");
 else
-printf("%d ", i);
-if (i == 100)
+printf("%d ", size);
+if (size == 100)
 continue;
 printf(" ");
 }
