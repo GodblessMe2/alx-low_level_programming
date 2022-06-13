@@ -11,9 +11,9 @@
  * Return: pointer to dest
  */
 
-char *_strcpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
-int index = 0, src_len = 0;
+int index = 0, src_len = 0, n;
 while (src[index++])
 src_len++;
 for (index = 0; src[index] && index < n; index++)
