@@ -12,7 +12,7 @@ void randomPasswordGeneration(int N)
 	  
 	char symbols[] = "!@#$^&*?";
 	  
-	char password[N];
+	int  password[N];
 
 	int i = 0;
 	  
