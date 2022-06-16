@@ -6,8 +6,9 @@
  * Return: Always 0
  */
 
-int main(int size)
+int main(void)
 {
+int size;
 for (size = 1; size < 100; size++)
 {
 if ((size % 3) == 0 && (size % 5) == 0)
