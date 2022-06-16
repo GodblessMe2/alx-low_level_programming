@@ -19,11 +19,8 @@ else if ((size % 5) == 0)
 printf("Buzz ");
 else
 printf("%d ", size);
-if (size == 100)
-continue;
-printf(" ");
 }
-printf("\n");
+printf("Buzz\n");
 
 return (0);
 
