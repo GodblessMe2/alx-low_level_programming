@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
   
-void randomPasswordGeneration(int N)
+int main(void)
 {
 	
 	char letter[] = "abcdefghijklmnoqprstuvwyzx";
@@ -14,7 +14,7 @@ void randomPasswordGeneration(int N)
 	
 	int i = 0;
 	  
-	int *password[N];
+	int password[N];
 
 	int randomizer = 0;
 					
