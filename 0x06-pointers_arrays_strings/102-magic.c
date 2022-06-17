@@ -1,9 +1,9 @@
-#include "main.h"
-#include <stdio>
+#include <stdio.h>
+
 int main(void)
 {
 	  int n;
-	    int a[2];
+	    int a[5];
 	      int *p;
 
 	        a[2] = 1024;
