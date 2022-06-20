@@ -20,5 +20,5 @@ break;
 if (!accept[j])
 break
 }
-return(i);
+return (i);
 }

@@ -15,5 +15,5 @@ for (mem = 0; mem < n; mem++)
 {
 *(dest + mem) = *(src + mem);
 }
-return(dest);
+return (dest);
 }
