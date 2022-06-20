@@ -15,5 +15,7 @@ for (mem = 0; mem < n; mem++)
 {
 *(s + mem) = b;
 }
+
 return (s);
+
 }
