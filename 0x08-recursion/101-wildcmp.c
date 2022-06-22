@@ -19,7 +19,7 @@ else
 return (test(s5 + 1, s6 + 1, t5, t6));
 }
 /**
- * wild - checks for the wild
+ * wildcard - checks for the wild
  * @s3: string to compare to
  * @s4: string to check
  *
