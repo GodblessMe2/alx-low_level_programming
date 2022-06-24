@@ -14,5 +14,9 @@ void print_alphabet(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80717b59d451e3514eb4950c03369c5cb98c5f19
 
 #endif
