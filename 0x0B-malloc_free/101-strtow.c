@@ -23,7 +23,6 @@ n++;
 n++;
 return (n);
 }
-
 /**
  * strtow - splits a string into words
  * @str: string to split
@@ -48,7 +47,8 @@ while (str[i])
 {
 if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 {
-for (j = 1; str[i + i] != ' ' && str[i + j]; j++);
+for (j = 1; str[i + i] != ' ' && str[i + j]; j++)
+	;
 j++;
 w[wc] = (char *)malloc(j *sizeof(char));
 j--;
@@ -69,4 +69,5 @@ i += j;
 else
 i++;
 }
+return (w);
 }
