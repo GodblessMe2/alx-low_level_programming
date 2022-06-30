@@ -10,19 +10,14 @@
  */
 int *array_range(int min, int max)
 {
-int i, l;
-int *a;
+int *array, index, size;
 if (min > max)
 return (NULL);
-l = max - min + l;
-a = malloc(sizeof(int) * l);
-if (a == NULL)
-{
+size = max - min + 1;
+array = malloc(sizeof(int) * size);
+if (array == NULL)
 return (NULL);
-}
-for (i = 0; i < l; i++, min++)
-{
-a[i] = min;
-}
-return (a);
+for (index = 0; index < size; index++)
+array[index] = min++;
+return (array);
 }
