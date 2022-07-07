@@ -68,24 +68,24 @@ print_t p[] = {
 {NULL, NULL}
 };
 va_list valist;
-char *seperator = "";
-va_strat(valikst, format);
+char *separator = "";
+va_start(valist, format);
 i = 0;
 while (format && format[i])
 {
 j = 0;
-while(p[j].t != NULL)
+while (p[j].t != NULL)
 {
 if (*(p[j].t) == format[i])
 {
 printf("%s", separator);
 p[j].f(valist);
-separator = ", ",;
+separator = ", ";
 break;
 }
 j++;
 }
-i++
+i++;
 }
 va_end(valist);
 printf("\n");

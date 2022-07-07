@@ -9,12 +9,12 @@
  *
  * Return: void
  */
-void print_strings(const char *separator, const unsignd int n, ...)
+void print_strings(const char *separator, const unsigned int n, ...)
 {
-unsigned int i; 
+unsigned int i;
 char *str;
 va_list valist;
-va_strat(valist, n);
+va_start(valist, n);
 for (i = 0; i < n; i++)
 {
 str = va_arg(valist, char *);
@@ -22,7 +22,7 @@ if (str)
 {
 printf("%s", str);
 }
-else 
+else
 {
 printf("(nil)");
 }
