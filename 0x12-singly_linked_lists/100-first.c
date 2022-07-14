@@ -1,5 +1,6 @@
 #include <stdio.h>
-void _attribute_((constructor)) hare(void);
+
+void __attribute__((constructor)) hare(void);
 
 
 /**
