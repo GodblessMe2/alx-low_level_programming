@@ -15,7 +15,9 @@ unsigned int node;
 for (node = 0; node < index; index++)
 {
 if (head == NULL)
+{
 return (NULL);
+}
 head = head->next;
 }
 return (head);
