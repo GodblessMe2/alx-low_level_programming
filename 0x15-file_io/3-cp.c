@@ -38,7 +38,7 @@ if (fd_from != -1)
 {
 close(fd_from);
 }
-if(fd_to != -1)
+if (fd_to != -1)
 {
 close(fd_to);
 }
@@ -64,7 +64,7 @@ if (fd_from != -1)
 {
 close(fd_from);
 }
-if(fd_to != -1)
+if (fd_to != -1)
 {
 close(fd_to);
 }
@@ -95,7 +95,7 @@ exit(100);
  *
  * Return: 0 on success
  */
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 int fd_from, fd_to, close_to, close_from;
 ssize_t lenr, lenw;
@@ -110,7 +110,7 @@ check99((ssize_t)fd_to, argv[2], fd_from, -1);
 lenr = 1024;
 while (lenr == 1024)
 {
-lenr = read(fd_from, buff, 1024);
+lenr = read(fd_from, buffer, 1024);
 check98(lenr, argv[1], fd_from, fd_to);
 lenw = write(fd_to, buffer, lenr);
 if (lenw != lenr)
